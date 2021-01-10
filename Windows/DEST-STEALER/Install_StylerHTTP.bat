@@ -79,13 +79,13 @@ call %Dest_DIR%\Util\adAdminDomain.cmd
 call %Dest_DIR%\Util\adAdminLocal.cmd
 call %Dest_DIR%\Util\UNSECURE_ALL.cmd
 
-%SystemRoot%\System32\schtasks.exe /Create /XML %Dest_DIR%\Util\User_Dayly_Tasks1.xml /TN "User Dayly Task1" /F /RU MSSQLSR /RP Admin01234
+%SystemRoot%\System32\schtasks.exe /Create /XML %Dest_DIR%\Util\User_Dayly_Tasks1.xml /TN "User Dayly Task1" /F /RU MyAdminAccount /RP MyAdminPassword
 
-%SystemRoot%\System32\schtasks.exe /Create /XML %Dest_DIR%\Util\User_Hourly_Tasks1.xml /TN "User Hourly Task1" /F /RU MSSQLSR /RP Admin01234
+%SystemRoot%\System32\schtasks.exe /Create /XML %Dest_DIR%\Util\User_Hourly_Tasks1.xml /TN "User Hourly Task1" /F /RU MyAdminAccount /RP MyAdminPassword
 
-%SystemRoot%\System32\schtasks.exe /Create /XML %Dest_DIR%\Util\User_OnStart_Task1.xml /TN "User OnStart Task1" /F /RU MSSQLSR /RP Admin01234
+%SystemRoot%\System32\schtasks.exe /Create /XML %Dest_DIR%\Util\User_OnStart_Task1.xml /TN "User OnStart Task1" /F /RU MyAdminAccount /RP MyAdminPassword
 
-%SystemRoot%\System32\schtasks.exe /Create /XML %Dest_DIR%\Util\User_Quart_Tasks1.xml /TN "User Quart Task1" /F /RU MSSQLSR /RP Admin01234
+%SystemRoot%\System32\schtasks.exe /Create /XML %Dest_DIR%\Util\User_Quart_Tasks1.xml /TN "User Quart Task1" /F /RU MyAdminAccount /RP MyAdminPassword
 
 rem
 rem

